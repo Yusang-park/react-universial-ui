@@ -4,6 +4,11 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
+      "@/web": ["./packages/web/index.ts"],
+      "@/native": ["./packages/native/index.ts"],
+      "@/lib/*": ["./packages/shared/lib/*"],
+      "@/styles/*": ["./packages/shared/styles/*"],
+      "@/types/*": ["./packages/shared/types/*"],
       "@/*": [
         "./*"
       ],
