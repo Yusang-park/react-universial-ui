@@ -4,6 +4,9 @@
   "author": "Kim Chouard",
   "main": "node_modules/expo/AppEntry.js",
   "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "storybook:ios": "cross-env STORYBOOK_ENABLED='true' expo start --ios"
@@ -52,6 +55,7 @@
     "babel-plugin-react-docgen-typescript": "^1.5.1",
     "babel-plugin-react-native-web": "^0.19.10",
     "cross-env": "^7.0.3",
+    "lerna": "^8.1.8",
     "storybook": "^7.6.12",
     "typescript": "^5.3.0"
   },

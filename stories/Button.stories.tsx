@@ -1,10 +1,10 @@
+import { Button } from '@/packages/web/Button';
 import type { Meta, StoryObj } from "@storybook/react";
 import React from "react";
 import { View } from "react-native";
-import { Button } from "./Button";
 
 const meta = {
-  title: "MyButton",
+  title: "Button",
   component: Button,
   args: {
     children: "Hello world",

@@ -3,7 +3,7 @@ import Constants from "expo-constants";
 
 // Import your global CSS file
 import "./global.css";
-import { Button } from './components/Button/Button.web';
+import { Button } from './packages/web/Button';
 
 function App() {
   return (
