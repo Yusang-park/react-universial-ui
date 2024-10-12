@@ -1,3 +1,5 @@
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
+
 import path from 'path';
 
 /** @type{import("@storybook/react-webpack5").StorybookConfig} */
@@ -54,6 +56,7 @@ module.exports = {
       ],
       include: path.resolve(__dirname, '../') // path to project root
     })
+    config.resolve.plugins = [new TsconfigPathsPlugin()];
 
     return {
       ...config

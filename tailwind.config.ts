@@ -17,6 +17,9 @@ import tailwindAnimation from 'tailwindcss-animate';
 // delete colors['blueGray'];
 
 export default {
+  corePlugin: {
+    backgroundOpacity: true,
+  },
   content: ["./components/**/*.{js,jsx,ts,tsx}"],
   darkMode: "class",
   presets: [nativewind],
