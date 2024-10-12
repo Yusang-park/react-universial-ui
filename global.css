@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --wrapper:#F5F5FC;
+    --wrapper-primary:#f0f6f6;
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: #01BAB3;
+    --primary-backfill:#EAF1F9;
+    --primary-foreground: 0 0% 98%;
+    --secondary: #DADADA8D;
+    --secondary-foreground: 240 5.9% 10%;
+    --translucent: #ffffff2d;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: #B3B3B3FF;
+    --accent: #eeeeee;
+    --accent-foreground: #58667E;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --border-primary:#55B5A6;
+    --input: #B3B3B3FF;
+    --ring: 240 5.9% 10%;
+    --banner-purple:#6F2383B8;
+    --positive-background: #edfced;
+    --positive-foreground: #0e9f6e;
+    --negative-background: #F8F0ED;
+    --negative-foreground: #D77575;
+    --neutral-background: #E8E8E8;
+    --neutral-foreground: #515151;
+  }
+
+  .dark:root {
+    --wrapper:#171923;
+    --wrapper-primary:#1B1E2AFF;
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: #262938;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: #01BAB3;
+    --primary-backfill:#262938;
+    --primary-foreground: #ffffff;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --translucent: #ffffff2d;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: #262938;
+    --accent-foreground: #ffffff;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --border-primary:#55B5A6;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+    --banner-purple:#6F2383B8;
+    --positive-background: #323C3F;
+    --positive-foreground: #9FD9B6;
+    --negative-background: #3C3440;
+    --negative-foreground: #B89194;
+    --neutral-background: #515151;
+    --neutral-foreground: #F9F9F9;
+  }
+}
