@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss"
+  ],
+    "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)`",
+    "tw\\.style\\(([^)]*)\\)",
+    "cva\\(([^)]*)\\)",
+    "'([^']*)'",
+    "cva\\([^)]*?(['\"][^'\"]*['\"])[^)]*?\\)"
+  ]
+}

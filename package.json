@@ -1,0 +1,13 @@
+{
+  "name": "shared-jsx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "storybook" : "cd packages/storybook && yarn storybook:web",
+    "storybook:native" : "cd packages/storybook && yarn storybook:ios"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
